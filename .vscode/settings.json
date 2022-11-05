@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.detectIndentation": false,
+  "explorer.compactFolders": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "file",
+  "[typescriptreact][json][jsonc]": {
+    "editor.rulers": [80]
+  },
+
+  "conventionalCommits.scopes": [],
+
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.gitignore": true,
+    "**/postcss.config.cjs": true,
+    "**/package-lock.json": true,
+    "**/vite.config.js": true
+  }
+}
